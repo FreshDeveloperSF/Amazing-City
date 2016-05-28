@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var moreBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        moreBtn.layer.cornerRadius = 2.0
+        moreBtn.layer.cornerRadius = 5.0
     }
 
     override func didReceiveMemoryWarning() {
