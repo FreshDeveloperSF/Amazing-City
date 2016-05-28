@@ -55,17 +55,34 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lN3-u4-kQV">
+                                <rect key="frame" x="113" y="480" width="215" height="33"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="171" id="9jx-V3-JUs"/>
+                                    <constraint firstAttribute="height" constant="33" id="coO-vA-RWr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="FIND OUT MORE">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Tec-Nt-JJf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5LT-3x-Ecs"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d2L-Qh-Fv3" secondAttribute="bottom" id="DKg-uf-bOe"/>
                             <constraint firstItem="d2L-Qh-Fv3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="b4g-hP-BZj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lN3-u4-kQV" secondAttribute="bottom" constant="40" id="b7j-mN-cDV"/>
                             <constraint firstItem="Tec-Nt-JJf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="eXf-Lo-XlR"/>
                             <constraint firstItem="d2L-Qh-Fv3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rqk-Z4-urA"/>
+                            <constraint firstItem="lN3-u4-kQV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tbm-X4-WfU"/>
                             <constraint firstAttribute="trailing" secondItem="d2L-Qh-Fv3" secondAttribute="trailing" id="uxS-Uc-RIf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="moreButton" destination="lN3-u4-kQV" id="are-bT-UvE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
