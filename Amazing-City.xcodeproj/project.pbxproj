@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7D032A1CF950CA0081CE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D03291CF950CA0081CE5E /* AppDelegate.swift */; };
+		EC7D032C1CF950CA0081CE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D032B1CF950CA0081CE5E /* ViewController.swift */; };
+		EC7D032F1CF950CA0081CE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7D032D1CF950CA0081CE5E /* Main.storyboard */; };
+		EC7D03311CF950CA0081CE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7D03301CF950CA0081CE5E /* Assets.xcassets */; };
+		EC7D03341CF950CA0081CE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7D03321CF950CA0081CE5E /* LaunchScreen.storyboard */; };
+		EC7D033F1CF950CA0081CE5E /* Amazing_CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D033E1CF950CA0081CE5E /* Amazing_CityTests.swift */; };
+		EC7D034A1CF950CA0081CE5E /* Amazing_CityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D03491CF950CA0081CE5E /* Amazing_CityUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7D033B1CF950CA0081CE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7D031E1CF950C90081CE5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7D03251CF950C90081CE5E;
+			remoteInfo = "Amazing-City";
+		};
+		EC7D03461CF950CA0081CE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7D031E1CF950C90081CE5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7D03251CF950C90081CE5E;
+			remoteInfo = "Amazing-City";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7D03261CF950CA0081CE5E /* Amazing-City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amazing-City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7D03291CF950CA0081CE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC7D032B1CF950CA0081CE5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC7D032E1CF950CA0081CE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC7D03301CF950CA0081CE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7D03331CF950CA0081CE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC7D03351CF950CA0081CE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7D033A1CF950CA0081CE5E /* Amazing-CityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazing-CityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7D033E1CF950CA0081CE5E /* Amazing_CityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_CityTests.swift; sourceTree = "<group>"; };
+		EC7D03401CF950CA0081CE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7D03451CF950CA0081CE5E /* Amazing-CityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazing-CityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7D03491CF950CA0081CE5E /* Amazing_CityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_CityUITests.swift; sourceTree = "<group>"; };
+		EC7D034B1CF950CA0081CE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7D03231CF950C90081CE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D03371CF950CA0081CE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D03421CF950CA0081CE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7D031D1CF950C90081CE5E = {
+			isa = PBXGroup;
+			children = (
+				EC7D03281CF950CA0081CE5E /* Amazing-City */,
+				EC7D033D1CF950CA0081CE5E /* Amazing-CityTests */,
+				EC7D03481CF950CA0081CE5E /* Amazing-CityUITests */,
+				EC7D03271CF950CA0081CE5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7D03271CF950CA0081CE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7D03261CF950CA0081CE5E /* Amazing-City.app */,
+				EC7D033A1CF950CA0081CE5E /* Amazing-CityTests.xctest */,
+				EC7D03451CF950CA0081CE5E /* Amazing-CityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7D03281CF950CA0081CE5E /* Amazing-City */ = {
+			isa = PBXGroup;
+			children = (
+				EC7D03291CF950CA0081CE5E /* AppDelegate.swift */,
+				EC7D032B1CF950CA0081CE5E /* ViewController.swift */,
+				EC7D032D1CF950CA0081CE5E /* Main.storyboard */,
+				EC7D03301CF950CA0081CE5E /* Assets.xcassets */,
+				EC7D03321CF950CA0081CE5E /* LaunchScreen.storyboard */,
+				EC7D03351CF950CA0081CE5E /* Info.plist */,
+			);
+			path = "Amazing-City";
+			sourceTree = "<group>";
+		};
+		EC7D033D1CF950CA0081CE5E /* Amazing-CityTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7D033E1CF950CA0081CE5E /* Amazing_CityTests.swift */,
+				EC7D03401CF950CA0081CE5E /* Info.plist */,
+			);
+			path = "Amazing-CityTests";
+			sourceTree = "<group>";
+		};
+		EC7D03481CF950CA0081CE5E /* Amazing-CityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7D03491CF950CA0081CE5E /* Amazing_CityUITests.swift */,
+				EC7D034B1CF950CA0081CE5E /* Info.plist */,
+			);
+			path = "Amazing-CityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7D03251CF950C90081CE5E /* Amazing-City */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7D034E1CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-City" */;
+			buildPhases = (
+				EC7D03221CF950C90081CE5E /* Sources */,
+				EC7D03231CF950C90081CE5E /* Frameworks */,
+				EC7D03241CF950C90081CE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amazing-City";
+			productName = "Amazing-City";
+			productReference = EC7D03261CF950CA0081CE5E /* Amazing-City.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7D03391CF950CA0081CE5E /* Amazing-CityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7D03511CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-CityTests" */;
+			buildPhases = (
+				EC7D03361CF950CA0081CE5E /* Sources */,
+				EC7D03371CF950CA0081CE5E /* Frameworks */,
+				EC7D03381CF950CA0081CE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7D033C1CF950CA0081CE5E /* PBXTargetDependency */,
+			);
+			name = "Amazing-CityTests";
+			productName = "Amazing-CityTests";
+			productReference = EC7D033A1CF950CA0081CE5E /* Amazing-CityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7D03441CF950CA0081CE5E /* Amazing-CityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7D03541CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-CityUITests" */;
+			buildPhases = (
+				EC7D03411CF950CA0081CE5E /* Sources */,
+				EC7D03421CF950CA0081CE5E /* Frameworks */,
+				EC7D03431CF950CA0081CE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7D03471CF950CA0081CE5E /* PBXTargetDependency */,
+			);
+			name = "Amazing-CityUITests";
+			productName = "Amazing-CityUITests";
+			productReference = EC7D03451CF950CA0081CE5E /* Amazing-CityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7D031E1CF950C90081CE5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jason Leung";
+				TargetAttributes = {
+					EC7D03251CF950C90081CE5E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EC7D03391CF950CA0081CE5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC7D03251CF950C90081CE5E;
+					};
+					EC7D03441CF950CA0081CE5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EC7D03251CF950C90081CE5E;
+					};
+				};
+			};
+			buildConfigurationList = EC7D03211CF950C90081CE5E /* Build configuration list for PBXProject "Amazing-City" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7D031D1CF950C90081CE5E;
+			productRefGroup = EC7D03271CF950CA0081CE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7D03251CF950C90081CE5E /* Amazing-City */,
+				EC7D03391CF950CA0081CE5E /* Amazing-CityTests */,
+				EC7D03441CF950CA0081CE5E /* Amazing-CityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7D03241CF950C90081CE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7D03341CF950CA0081CE5E /* LaunchScreen.storyboard in Resources */,
+				EC7D03311CF950CA0081CE5E /* Assets.xcassets in Resources */,
+				EC7D032F1CF950CA0081CE5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D03381CF950CA0081CE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D03431CF950CA0081CE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7D03221CF950C90081CE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7D032C1CF950CA0081CE5E /* ViewController.swift in Sources */,
+				EC7D032A1CF950CA0081CE5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D03361CF950CA0081CE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7D033F1CF950CA0081CE5E /* Amazing_CityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7D03411CF950CA0081CE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7D034A1CF950CA0081CE5E /* Amazing_CityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7D033C1CF950CA0081CE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7D03251CF950C90081CE5E /* Amazing-City */;
+			targetProxy = EC7D033B1CF950CA0081CE5E /* PBXContainerItemProxy */;
+		};
+		EC7D03471CF950CA0081CE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7D03251CF950C90081CE5E /* Amazing-City */;
+			targetProxy = EC7D03461CF950CA0081CE5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC7D032D1CF950CA0081CE5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7D032E1CF950CA0081CE5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC7D03321CF950CA0081CE5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC7D03331CF950CA0081CE5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC7D034C1CF950CA0081CE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7D034D1CF950CA0081CE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7D034F1CF950CA0081CE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amazing-City/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonleung.Amazing-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC7D03501CF950CA0081CE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amazing-City/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonleung.Amazing-City";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC7D03521CF950CA0081CE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amazing-CityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonleung.Amazing-CityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazing-City.app/Amazing-City";
+			};
+			name = Debug;
+		};
+		EC7D03531CF950CA0081CE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amazing-CityTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonleung.Amazing-CityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amazing-City.app/Amazing-City";
+			};
+			name = Release;
+		};
+		EC7D03551CF950CA0081CE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amazing-CityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonleung.Amazing-CityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amazing-City";
+			};
+			name = Debug;
+		};
+		EC7D03561CF950CA0081CE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amazing-CityUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonleung.Amazing-CityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amazing-City";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7D03211CF950C90081CE5E /* Build configuration list for PBXProject "Amazing-City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7D034C1CF950CA0081CE5E /* Debug */,
+				EC7D034D1CF950CA0081CE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7D034E1CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-City" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7D034F1CF950CA0081CE5E /* Debug */,
+				EC7D03501CF950CA0081CE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7D03511CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-CityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7D03521CF950CA0081CE5E /* Debug */,
+				EC7D03531CF950CA0081CE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC7D03541CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-CityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7D03551CF950CA0081CE5E /* Debug */,
+				EC7D03561CF950CA0081CE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7D031E1CF950C90081CE5E /* Project object */;
+}
