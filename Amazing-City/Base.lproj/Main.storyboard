@@ -66,6 +66,9 @@
                                 <state key="normal" title="FIND OUT MORE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="QeR-JE-Xi8" kind="show" id="hDT-oX-yvB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -88,8 +91,52 @@
             </objects>
             <point key="canvasLocation" x="476" y="353"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="k06-e0-7UE">
+            <objects>
+                <viewController id="QeR-JE-Xi8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c40-7V-WCv"/>
+                        <viewControllerLayoutGuide type="bottom" id="rEU-zC-4Cw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4bg-tl-2Od">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hongkong2" translatesAutoresizingMaskIntoConstraints="NO" id="gzI-bx-hdI">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="152" id="Ce1-TW-Fex"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ABOUT HONG KONG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nM4-dw-jVn">
+                                <rect key="frame" x="214" y="43" width="172" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="POc-dt-uWt"/>
+                                    <constraint firstAttribute="width" constant="195" id="v0L-Dq-oHw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nM4-dw-jVn" firstAttribute="top" secondItem="c40-7V-WCv" secondAttribute="bottom" constant="45" id="6Rq-WW-G4p"/>
+                            <constraint firstAttribute="trailing" secondItem="gzI-bx-hdI" secondAttribute="trailing" id="Lno-ko-lpJ"/>
+                            <constraint firstItem="gzI-bx-hdI" firstAttribute="leading" secondItem="4bg-tl-2Od" secondAttribute="leading" id="UHS-Iy-UoT"/>
+                            <constraint firstItem="nM4-dw-jVn" firstAttribute="centerX" secondItem="4bg-tl-2Od" secondAttribute="centerX" id="Vtf-zl-oQm"/>
+                            <constraint firstItem="gzI-bx-hdI" firstAttribute="top" secondItem="4bg-tl-2Od" secondAttribute="top" id="xcX-1T-A5P"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I2b-gR-rRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1214" y="353"/>
+        </scene>
     </scenes>
     <resources>
         <image name="hongkong1" width="851" height="1160"/>
+        <image name="hongkong2" width="3901" height="2600"/>
     </resources>
 </document>
