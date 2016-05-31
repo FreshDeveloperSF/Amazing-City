@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -63,7 +63,7 @@
                                     <constraint firstAttribute="width" constant="166" id="sa3-sP-pQh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                <state key="normal" title="TO LEARN MORE">
+                                <state key="normal" title="FIND OUT MORE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -91,10 +91,10 @@
             </objects>
             <point key="canvasLocation" x="476" y="353"/>
         </scene>
-        <!--View Controller-->
+        <!--DetailVC View Controller-->
         <scene sceneID="k06-e0-7UE">
             <objects>
-                <viewController id="QeR-JE-Xi8" sceneMemberID="viewController">
+                <viewController id="QeR-JE-Xi8" customClass="DetailVCViewController" customModule="Amazing_City" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="c40-7V-WCv"/>
                         <viewControllerLayoutGuide type="bottom" id="rEU-zC-4Cw"/>
@@ -124,15 +124,18 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="QeR-JE-Xi8" eventType="touchUpInside" id="LTy-o7-3eM"/>
+                                </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="OyB-g8-Qek">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OyB-g8-Qek">
                                 <rect key="frame" x="20" y="171" width="560" height="388"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Tew-6r-5R8">
-                                        <rect key="frame" x="0.0" y="0.0" width="115" height="173"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="-25" translatesAutoresizingMaskIntoConstraints="NO" id="Tew-6r-5R8">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="97"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MQ-ug-oE3">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="153"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5MQ-ug-oE3">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="61"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="195" id="7Sq-VA-pTv"/>
                                                     <constraint firstAttribute="height" constant="21" id="eJa-HZ-Gf6"/>
@@ -142,13 +145,13 @@
                                                 <nil key="highlightedColor"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
-                                                        <exclude reference="eJa-HZ-Gf6"/>
                                                         <exclude reference="7Sq-VA-pTv"/>
+                                                        <exclude reference="eJa-HZ-Gf6"/>
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="7.188 MILLION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMi-3y-2dP">
-                                                <rect key="frame" x="0.0" y="153" width="115" height="20"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.188 MILLION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMi-3y-2dP">
+                                                <rect key="frame" x="0.0" y="36" width="115" height="61"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="a9A-cB-O6Z"/>
                                                     <constraint firstAttribute="width" constant="195" id="nLq-ka-XsN"/>
@@ -165,11 +168,11 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ii6-HN-h9L">
-                                        <rect key="frame" x="0.0" y="173" width="548" height="215"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ii6-HN-h9L">
+                                        <rect key="frame" x="0.0" y="107" width="548" height="281"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DN3-FY-bUk">
-                                                <rect key="frame" x="0.0" y="0.0" width="76" height="86"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="162"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="E5b-Li-xnU"/>
                                                     <constraint firstAttribute="width" constant="195" id="eiS-yD-itq"/>
@@ -184,8 +187,8 @@
                                                     </mask>
                                                 </variation>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZU-di-fyn">
-                                                <rect key="frame" x="0.0" y="96" width="548" height="119"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZU-di-fyn">
+                                                <rect key="frame" x="0.0" y="162" width="548" height="119"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="8Uf-2P-w18"/>
                                                     <constraint firstAttribute="width" constant="195" id="vtB-Gb-Zfl"/>

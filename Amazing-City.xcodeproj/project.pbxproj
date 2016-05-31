@@ -14,6 +14,7 @@
 		EC7D03341CF950CA0081CE5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC7D03321CF950CA0081CE5E /* LaunchScreen.storyboard */; };
 		EC7D033F1CF950CA0081CE5E /* Amazing_CityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D033E1CF950CA0081CE5E /* Amazing_CityTests.swift */; };
 		EC7D034A1CF950CA0081CE5E /* Amazing_CityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7D03491CF950CA0081CE5E /* Amazing_CityUITests.swift */; };
+		EC9475F81CFE3AD200FEECDE /* DetailVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9475F71CFE3AD200FEECDE /* DetailVCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EC7D03451CF950CA0081CE5E /* Amazing-CityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amazing-CityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7D03491CF950CA0081CE5E /* Amazing_CityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amazing_CityUITests.swift; sourceTree = "<group>"; };
 		EC7D034B1CF950CA0081CE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9475F71CFE3AD200FEECDE /* DetailVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				EC7D03301CF950CA0081CE5E /* Assets.xcassets */,
 				EC7D03321CF950CA0081CE5E /* LaunchScreen.storyboard */,
 				EC7D03351CF950CA0081CE5E /* Info.plist */,
+				EC9475F71CFE3AD200FEECDE /* DetailVCViewController.swift */,
 			);
 			path = "Amazing-City";
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				EC7D032C1CF950CA0081CE5E /* ViewController.swift in Sources */,
 				EC7D032A1CF950CA0081CE5E /* AppDelegate.swift in Sources */,
+				EC9475F81CFE3AD200FEECDE /* DetailVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				EC7D03501CF950CA0081CE5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC7D03511CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-CityTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				EC7D03531CF950CA0081CE5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC7D03541CF950CA0081CE5E /* Build configuration list for PBXNativeTarget "Amazing-CityUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				EC7D03561CF950CA0081CE5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
